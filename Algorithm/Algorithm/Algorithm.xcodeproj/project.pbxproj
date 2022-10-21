@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6389CA692812926400E980F0 /* insertion-sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389CA682812926400E980F0 /* insertion-sort.swift */; };
+		63889E99290266EE00C7036E /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63889E98290266EE00C7036E /* mergeSort.swift */; };
+		6389CA692812926400E980F0 /* insertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389CA682812926400E980F0 /* insertionSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63889E98290266EE00C7036E /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
 		6389CA652812926400E980F0 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		6389CA682812926400E980F0 /* insertion-sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "insertion-sort.swift"; sourceTree = "<group>"; };
+		6389CA682812926400E980F0 /* insertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertionSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 		6389CA6F2812927600E980F0 /* sorting */ = {
 			isa = PBXGroup;
 			children = (
-				6389CA682812926400E980F0 /* insertion-sort.swift */,
+				6389CA682812926400E980F0 /* insertionSort.swift */,
+				63889E98290266EE00C7036E /* mergeSort.swift */,
 			);
 			path = sorting;
 			sourceTree = "<group>";
@@ -128,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6389CA692812926400E980F0 /* insertion-sort.swift in Sources */,
+				63889E99290266EE00C7036E /* mergeSort.swift in Sources */,
+				6389CA692812926400E980F0 /* insertionSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
