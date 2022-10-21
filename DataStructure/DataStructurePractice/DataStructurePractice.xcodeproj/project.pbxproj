@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630A489028E9BB2800A35B55 /* Queue_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A488F28E9BB2800A35B55 /* Queue_Array.swift */; };
+		630A489328E9C1DB00A35B55 /* Queue_Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A489228E9C1DB00A35B55 /* Queue_Node.swift */; };
+		630A489528E9C88000A35B55 /* Queue_LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A489428E9C88000A35B55 /* Queue_LinkedList.swift */; };
+		630A489828E9C95A00A35B55 /* Stack_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A489728E9C95A00A35B55 /* Stack_Array.swift */; };
+		630A489A28E9C96700A35B55 /* Stack_Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A489928E9C96700A35B55 /* Stack_Node.swift */; };
 		63829D672806698F00356BD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63829D662806698F00356BD5 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		630A488F28E9BB2800A35B55 /* Queue_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_Array.swift; sourceTree = "<group>"; };
+		630A489228E9C1DB00A35B55 /* Queue_Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_Node.swift; sourceTree = "<group>"; };
+		630A489428E9C88000A35B55 /* Queue_LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_LinkedList.swift; sourceTree = "<group>"; };
+		630A489728E9C95A00A35B55 /* Stack_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_Array.swift; sourceTree = "<group>"; };
+		630A489928E9C96700A35B55 /* Stack_Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_Node.swift; sourceTree = "<group>"; };
 		63829D632806698F00356BD5 /* DataStructurePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructurePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		63829D662806698F00356BD5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		63829D6E280669D300356BD5 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
@@ -39,6 +49,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		630A489128E9C1A600A35B55 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				630A488F28E9BB2800A35B55 /* Queue_Array.swift */,
+				630A489228E9C1DB00A35B55 /* Queue_Node.swift */,
+				630A489428E9C88000A35B55 /* Queue_LinkedList.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		630A489628E9C94A00A35B55 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				630A489728E9C95A00A35B55 /* Stack_Array.swift */,
+				630A489928E9C96700A35B55 /* Stack_Node.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		63829D5A2806698F00356BD5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +87,8 @@
 		63829D652806698F00356BD5 /* DataStructurePractice */ = {
 			isa = PBXGroup;
 			children = (
+				630A489628E9C94A00A35B55 /* Stack */,
+				630A489128E9C1A600A35B55 /* Queue */,
 				63829D662806698F00356BD5 /* main.swift */,
 				63829D6D2806699700356BD5 /* variationOfArray */,
 			);
@@ -130,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630A489A28E9C96700A35B55 /* Stack_Node.swift in Sources */,
+				630A489528E9C88000A35B55 /* Queue_LinkedList.swift in Sources */,
 				63829D672806698F00356BD5 /* main.swift in Sources */,
+				630A489828E9C95A00A35B55 /* Stack_Array.swift in Sources */,
+				630A489028E9BB2800A35B55 /* Queue_Array.swift in Sources */,
+				630A489328E9C1DB00A35B55 /* Queue_Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

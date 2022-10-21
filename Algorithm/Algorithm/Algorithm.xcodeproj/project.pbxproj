@@ -58,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				6389CA6F2812927600E980F0 /* sorting */,
-				6389CA682812926400E980F0 /* insertion-sort.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -66,6 +65,7 @@
 		6389CA6F2812927600E980F0 /* sorting */ = {
 			isa = PBXGroup;
 			children = (
+				6389CA682812926400E980F0 /* insertion-sort.swift */,
 			);
 			path = sorting;
 			sourceTree = "<group>";
