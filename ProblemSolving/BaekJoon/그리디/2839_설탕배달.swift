@@ -7,7 +7,7 @@
 
 import Foundation
 
-func solution2839() -> Int {
+func solution2839greedy() -> Int {
     var n = Int(readLine()!)!
     var result = 0
     
