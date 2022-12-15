@@ -1,0 +1,27 @@
+//
+//  2839_설탕배달.swift
+//  algorithm-practice
+//
+//  Created by Moon Yeji on 2022/12/15.
+//
+
+import Foundation
+
+func solution2839() -> Int {
+    var n = Int(readLine()!)!
+    var result = 0
+    
+    if n%5 == 0 {
+        return n/5
+    }
+    
+    while (n >= 0){
+        n -= 3
+        result += 1
+        if n % 5 == 0{
+            return result + (n / 5)
+        }
+    }
+    
+    return -1
+}
