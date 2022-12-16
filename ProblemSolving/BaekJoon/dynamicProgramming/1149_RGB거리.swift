@@ -13,7 +13,7 @@ func solution1149() {
     for i in 1..<n+1 {
         prices[i] = readLine()!.split(separator: " ").map {Int(String($0))!}
     }
-    
+     
     // dp[집번호][색상] = 가격
     var dp = Array(repeating: [0, 0, 0], count: n+1)
     
