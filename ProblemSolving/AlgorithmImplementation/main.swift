@@ -8,7 +8,8 @@
 import Foundation
 
 func main() {
-    
+    let result = fibonacciLoop(7)
+    print(result)
 }
 
 main()
