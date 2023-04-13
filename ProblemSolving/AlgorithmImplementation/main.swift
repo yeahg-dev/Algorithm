@@ -8,7 +8,7 @@
 import Foundation
 
 func main() {
-    let answer = solution(m: 6, n: 4, picture: [[1, 1, 1, 0], [1, 2, 2, 0], [1, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 3], [0, 0, 0, 3]])
+    let answer = solution(table: ["SI JAVA JAVASCRIPT SQL PYTHON C#", "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++", "HARDWARE C C++ PYTHON JAVA JAVASCRIPT", "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP", "GAME C++ C# JAVASCRIPT C JAVA"], languages: ["JAVA", "JAVASCRIPT"], preference: [7, 5])
     print(answer)
     
 }
