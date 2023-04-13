@@ -8,8 +8,9 @@
 import Foundation
 
 func main() {
-    let result = fibonacciLoop(7)
-    print(result)
+    let answer = solution(m: 6, n: 4, picture: [[1, 1, 1, 0], [1, 2, 2, 0], [1, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 3], [0, 0, 0, 3]])
+    print(answer)
+    
 }
 
 main()
