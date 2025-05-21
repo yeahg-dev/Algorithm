@@ -3,3 +3,8 @@ AlgorithmNote.xcodeproj/
 ProblemSolving/algorithm-practice.xcodeproj
 ProblemSolving/코테기출
 기출/
+<<<<<<< Updated upstream
+=======
+*.DS_Store
+
+>>>>>>> Stashed changes
