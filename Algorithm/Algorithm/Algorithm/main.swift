@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    FindMaxOccurredAlphabet.test()
+    IsNumberExist.test()
 }
