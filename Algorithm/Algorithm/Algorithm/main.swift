@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    IsNumberExist.test()
+    FindMaxPlusOrMultiply.test()
 }
