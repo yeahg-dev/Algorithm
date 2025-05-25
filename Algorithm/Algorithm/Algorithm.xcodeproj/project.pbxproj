@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		63889E99290266EE00C7036E /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63889E98290266EE00C7036E /* mergeSort.swift */; };
 		6389CA692812926400E980F0 /* insertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6389CA682812926400E980F0 /* insertionSort.swift */; };
 		B8F51E122DDE9C77007ADD98 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F51E112DDE9C77007ADD98 /* main.swift */; };
-		B8F51E142DDE9FC0007ADD98 /* FindMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F51E132DDE9FBC007ADD98 /* FindMax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,8 +29,11 @@
 		6389CA652812926400E980F0 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6389CA682812926400E980F0 /* insertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertionSort.swift; sourceTree = "<group>"; };
 		B8F51E112DDE9C77007ADD98 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B8F51E132DDE9FBC007ADD98 /* FindMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B814BD902DE2CF1F0012FFEE /* dingco */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = dingco; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6389CA622812926400E980F0 /* Frameworks */ = {
@@ -63,7 +65,7 @@
 		6389CA672812926400E980F0 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				B8F51E132DDE9FBC007ADD98 /* FindMax.swift */,
+				B814BD902DE2CF1F0012FFEE /* dingco */,
 				6389CA6F2812927600E980F0 /* sorting */,
 				B8F51E112DDE9C77007ADD98 /* main.swift */,
 			);
@@ -93,6 +95,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B814BD902DE2CF1F0012FFEE /* dingco */,
 			);
 			name = Algorithm;
 			productName = Algorithm;
@@ -139,7 +144,6 @@
 			files = (
 				63889E99290266EE00C7036E /* mergeSort.swift in Sources */,
 				6389CA692812926400E980F0 /* insertionSort.swift in Sources */,
-				B8F51E142DDE9FC0007ADD98 /* FindMax.swift in Sources */,
 				B8F51E122DDE9C77007ADD98 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
