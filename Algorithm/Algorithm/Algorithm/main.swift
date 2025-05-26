@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    FindMaxPlusOrMultiply.test()
+    FindNotRepeatingFirstCharacter.test()
 }
