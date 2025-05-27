@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    FindNotRepeatingFirstCharacter.test()
+    FindPrimeListUnderNumber.test()
 }
