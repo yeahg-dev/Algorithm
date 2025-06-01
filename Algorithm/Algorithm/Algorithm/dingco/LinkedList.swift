@@ -7,16 +7,16 @@
 
 import Foundation
 
-final class Node: CustomStringConvertible {
+final class Node<T>: CustomStringConvertible {
     
-    var data: Any
+    var data: T
     var next: Node? = nil
     
     var description: String {
         return String(describing: data)
     }
     
-    init(data: Any) {
+    init(data: T) {
         self.data = data
     }
     
@@ -24,7 +24,7 @@ final class Node: CustomStringConvertible {
 
 final class LinkedList<T> {
     
-    var head: Node?
+    var head: Node<T>?
     
     init(_ head: T) {
         self.head = Node(data: head)
@@ -47,7 +47,7 @@ final class LinkedList<T> {
         print(current)
     }
     
-    func getNode(_ index: Int) -> Node? {
+    func getNode(_ index: Int) -> Node<T>? {
         var current = head
         var currentIndex = 0
         
@@ -59,7 +59,7 @@ final class LinkedList<T> {
         return current
     }
     
-    func add(_ nodeData: Any, to index: Int) {
+    func add(_ nodeData: T, to index: Int) {
         guard index != 0 else {
             let newNode = Node(data: nodeData)
             newNode.next = self.head
