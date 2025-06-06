@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    BinarySearchExistCheck.test()
+    GetKthNodeFromLast.test()
 }
