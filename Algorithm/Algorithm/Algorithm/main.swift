@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    IsAvailableToOrder.test()
+    GetCountOfWaysToTargetByDoingPlusOrMinus.test()
 }
