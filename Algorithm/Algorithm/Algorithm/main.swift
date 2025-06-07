@@ -16,5 +16,5 @@ class Runner {
 }
 
 Runner.run {
-    GetKthNodeFromLast.test()
+    IsAvailableToOrder.test()
 }
